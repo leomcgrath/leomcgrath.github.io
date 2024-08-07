@@ -1,0 +1,354 @@
+/* Base styles */
+
+* a {
+    text-decoration: none;
+    color: #dbfe52;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d2204;
+}
+
+header {
+    background-color: #1d2204;
+    color: #dbfe52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #dbfe52;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #dbfe52;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.name {
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.name h1 {
+    font-size: 80px;
+    margin: 0px;
+    color: #dbfe52;
+}
+
+#namediv h1 {
+    padding: 0;
+    margin: 0;
+}
+
+/* LinkedIn banner */
+
+#banner {
+    background-color: #dbfe52;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+#banner h1 {
+    font-size: 5vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Flexbox */
+
+#box-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.flexboxes-right, .flexboxes-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+    gap: 5px;
+    width: 100%;
+}
+
+.box {
+    background-color: #dbfe52;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h1 {
+    font-size: 3vw;
+    margin: 0;
+    padding: 10px;
+}
+
+.box p {
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 1.3vw;
+}
+
+#gradientbox {
+    background: linear-gradient(to bottom left, #bc2a8d, #f46b45);
+}
+
+#imagebox {
+    background-image: url('images/brainleo.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+#imagebox-milla {
+    background-image: url('images/milla.jpg');
+    background-size: cover;
+    background-position: top;
+    min-height: 500px;
+}
+
+#student-orgs {
+    display: flex;
+    width: 100%;
+}
+
+#student-orgs img {
+    width: 50%;
+    height: auto;
+}
+
+#skryteboks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#skryteboks-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #4a9ae7;
+    color: #ffffff;
+}
+
+#repo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#repo h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+#repo img {
+    padding: 10px;
+    margin: 0;
+    height: auto;
+    width: 100px;
+}
+
+#programming {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #000000;
+    justify-content: space-evenly;
+}
+
+#whitebox {
+    background-color: #ffffff;
+}
+
+.flex-classes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.flex-classes h3 {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+#ongoing-classes {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#ongoing-classes #ongoing-70 {
+    width: 70%;
+    height: auto;
+}
+
+#ongoing-classes #ongoing-30 {
+    width: 30%;
+    height: 100%;
+}
+
+#ongoing-classes #ongoing-30 h3 {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* For YouTube */
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Ensures the video doesn't interfere with other elements */
+}
+
+#youtube-video {
+    width: 100vw;
+    height: 56.25vw; /* 16:9 aspect ratio */
+    min-height: 100vh;
+    min-width: 177.78vh; /* 16:9 aspect ratio */
+    pointer-events: none; /* Ensures the video doesn't interfere with other elements */
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: To make text more readable */
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .video-container {
+        padding-bottom: 80.25%; 
+    }
+}
+
+
+/* Make compatible for mobile */
+@media (max-width: 600px) {
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+    }
+    .flexboxes-right, .flexboxes-left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box h1 {
+        font-size: 5vw;
+    }
+
+    .box p {
+        font-size: 4vw;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header .logo {
+        font-size: 6vw;
+    }
+
+    #banner h1 {
+        font-size: 8vw;
+    }
+
+    .name h1 {
+        font-size: 10vw;
+    }
+    
+}
