@@ -8,22 +8,11 @@ As a Computer Technology student at NTNU, Class of '28, I've nurtured a fascinat
 
 Currently, I serve the student community as an active member of Abakus, my line union. Here, I have learned leadership and team skills. I am eager to shape a future where my passion for programming translates into positive change.
 
-## Highlighted Projects
-
-### [Pilscounter](https://github.com/leomcgrath/pilscounter)
-A project aimed at counting beer bottles, showcasing my skills in image recognition and machine learning.
-
-### [atleliemcgrath.com](https://atleliemcgrath.com)
-My personal website where I document my projects, experiences, and share my journey in the field of computer science.
-
-### [Cyberpunk 2088 - Video Game](https://github.com/leomcgrath/cyberpunk2088)
-A futuristic video game project, highlighting my skills in game development and creative design.
 
 ## Skills
 
 - **Programming Languages:** Python, JavaScript, Java, HTML, CSS
-- **Tools & Technologies:** Firebase, Git, Docker
-- **Frameworks:** React, Node.js
+- **Tools & Technologies:** Firebase, Git
 
 ## Student Organizations
 
@@ -60,7 +49,3 @@ I am actively involved in several student organizations, contributing to various
 - [LinkedIn](https://www.linkedin.com/in/leo-lie-mcgrath-2b4692284/)
 
 Feel free to explore my repositories and reach out if you have any questions or collaboration ideas!
-
----
-
-Website created by myself using HTML, CSS, and JavaScript. The design emphasizes simplicity and accessibility, with a focus on showcasing my projects and skills.
