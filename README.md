@@ -11,15 +11,12 @@ Currently, I serve the student community as an active member of Abakus, my line 
 ## Highlighted Projects
 
 ### [Pilscounter](https://github.com/leomcgrath/pilscounter)
-![Pilscounter](images/pils.png)
 A project aimed at counting beer bottles, showcasing my skills in image recognition and machine learning.
 
 ### [atleliemcgrath.com](https://atleliemcgrath.com)
-![atleliemcgrath.com](images/atle-logo-sort.png)
 My personal website where I document my projects, experiences, and share my journey in the field of computer science.
 
 ### [Cyberpunk 2088 - Video Game](https://github.com/leomcgrath/cyberpunk2088)
-![Cyberpunk 2088](images/Ship6.png)
 A futuristic video game project, highlighting my skills in game development and creative design.
 
 ## Skills
